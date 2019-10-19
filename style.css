@@ -1,0 +1,44 @@
+* {box-sizing: border-box;}
+
+nav {
+    height: 80px;
+}
+
+body {
+    background-color: #ddd;
+    position: relative;
+}
+
+footer {
+    background-color: #666;
+    border-top: 6px solid steelblue;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    position:fixed; 
+    width: 100%;
+    bottom:0;
+}
+
+li {
+    padding: 12px 0 12px 0;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+    max-width: 960px;
+}
+
+.navbar-default {
+    border-bottom: 1px solid #999;
+} 
+
+#nameBlock {
+    padding: 5px 20px 5px 20px;
+    background-color: steelblue;
+    color: white;
+}
