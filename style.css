@@ -9,12 +9,6 @@ body {
     position: relative;
 }
 
-img {
-    display: block;
-    width: 140px;
-    margin: 0 15px 15px 0;
-}
-
 footer {
     background-color: #666;
     border-top: 6px solid steelblue;
@@ -42,6 +36,7 @@ form {
 .container {
     max-width: 960px;
     background-color: white;
+    padding-bottom: 30px;
 }
 
 .container-fluid {
@@ -66,8 +61,35 @@ form {
     border-bottom: 1px solid #999;
 } 
 
+.portfolioPic {
+    width: 210px;
+} 
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    bottom: 12%;
+    width: 210px;
+}
+
 #nameBlock {
     padding: 6px 22px 9px 22px;
     background-color: steelblue;
     color: white;
 }
+
+#profilePic {
+    display: block;
+    width: 165px;
+    margin: 0 15px 15px 0;
+}
+
+
