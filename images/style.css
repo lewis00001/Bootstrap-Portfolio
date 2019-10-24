@@ -1,8 +1,6 @@
 * {box-sizing: border-box;}
 
-nav {
-    height: 80px;
-}
+
 
 body {
     background-color: #ddd;
@@ -81,7 +79,7 @@ form {
 }
 
 #nameBlock {
-    padding: 6px 22px 9px 22px;
+    padding: 0px 22px 0px 22px;
     background-color: steelblue;
     color: white;
 }

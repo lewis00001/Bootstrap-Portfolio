@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+
+
+body {
+    background-color: #ddd;
+    position: relative;
+}
+
+footer {
+    background-color: #666;
+    border-top: 6px solid steelblue;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    position:fixed; 
+    width: 100%;
+    bottom:0;
+}
+
+li {
+    padding: 12px 0 12px 0;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    max-width: 960px;
+    padding: 0;
+}
+
+.pageTitle {
+    color: steelblue;
+    font-size: x-large;
+}
+
+.img-thumbnail {
+    width: 200px;
+}
+
+.paddingSpace {
+    padding: 0 20px 10px 20px;
+}
+
+.navbar-default {
+    border-bottom: 1px solid #999;
+} 
+
+.portfolioPic {
+    width: 210px;
+} 
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    bottom: 12%;
+    width: 210px;
+}
+
+#nameBlock {
+    padding: 0px 22px 0px 22px;
+    background-color: steelblue;
+    color: white;
+}
+
+#profilePic {
+    display: block;
+    width: 165px;
+    margin: 0 15px 15px 0;
+}
